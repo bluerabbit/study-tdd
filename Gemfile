@@ -14,4 +14,5 @@ group :test do
   gem 'pry-remote'
   gem 'pry-stack_explorer'
   gem 'pry-debugger'
+  gem 'growl', require: false
 end
