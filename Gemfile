@@ -2,6 +2,7 @@
 source 'https://rubygems.org'
 
 gem 'rake', '0.9.2'
+gem 'activesupport'
 
 group :test do
   gem 'rspec', '2.10.0'
@@ -13,4 +14,5 @@ group :test do
   gem 'pry-remote'
   gem 'pry-stack_explorer'
   gem 'pry-debugger'
+  gem 'growl', require: false
 end
