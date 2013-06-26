@@ -2,13 +2,10 @@
 require 'spec_helper'
 
 describe Ranking do
-  describe '.foo' do
-    subject { Ranking.foo     }
-    it      { should == 'foo' }
-  end
-
-  describe '#fuga' do
-    subject { Ranking.new.fuga }
-    it      { should == 'fuga' }
+  describe '#score' do
+    it do
+      ranking = Ranking.new(90, 80)
+      ranking.rank(100).should == 1
+    end
   end
 end
