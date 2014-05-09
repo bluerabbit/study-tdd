@@ -6,13 +6,6 @@ gem 'activesupport'
 
 group :test do
   gem 'rspec', '2.10.0'
-  gem 'growl'
-  gem 'guard-rspec'
   gem 'pry'
-  gem 'pry-doc'
-  gem 'pry-exception_explorer'
-  gem 'pry-remote'
-  gem 'pry-stack_explorer'
-  gem 'pry-debugger'
-  gem 'growl', require: false
+  gem 'pry-nav'
 end
