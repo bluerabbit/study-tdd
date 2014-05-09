@@ -5,7 +5,7 @@ describe Array do
   describe '#sort' do
     it do
       array = [1, 3, 2]
-      array.sort.should == [1, 2, 3]
+      array.sort.should == [1, 2]
     end
   end
 
